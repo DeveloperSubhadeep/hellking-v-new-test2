@@ -1,5 +1,5 @@
 pyrofork==2.3.45
-# tgcrypto-pyrofork
+tgcrypto-pyrofork
 pymongo==4.13.2
 motor==3.7.1
 marshmallow<4.0.0
@@ -18,7 +18,7 @@ aiohttp
 python-dotenv==0.21.1
 PyLeaves==1.0.2
 humanize
-# Pillow
+Pillow
 psutil
 numpy
 wheel
@@ -38,4 +38,4 @@ Levenshtein==0.24.0
 cinemagoer
 
 # Git-based Packages
-# git+https://github.com/Joelkb/cinemagoer
+git+https://github.com/Joelkb/cinemagoer
