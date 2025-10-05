@@ -1990,7 +1990,7 @@ async def advantage_spell_chok(client, message):
 # ... অন্যান্য import এর সাথে এগুলি নিশ্চিত করুন
 # pmfilter.py - এই কোডটি ফাইলের যেকোনো জায়গায় যোগ করুন
 
-@Client.on_callback_query(filters.regex("^file#"))
+@Client.on_callback_query(filters.regex(r"^fq#") | filters.regex(r"^fl#") | filters.regex(r"^fs"))
 async def file_callback_handler(bot, query: CallbackQuery):
     try:
         # 1. file_id এবং user_id বের করুন
